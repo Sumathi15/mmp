@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65" started-at="2019-10-28T15:04:35 EDT" finished-at="2019-10-28T15:04:35 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65" started-at="2019-10-28T15:04:35 EDT" finished-at="2019-10-28T15:04:35 EDT">
+      <class name="com.mmp.testcases.US_004_ScheduleAppointment">
+        <test-method status="FAIL" signature="intiateDriverInstance(java.lang.String)[pri:0, instance:com.mmp.testcases.US_004_ScheduleAppointment@314c508a]" name="intiateDriverInstance" is-config="true" duration-ms="-1572289475382" started-at="2019-10-28T15:04:35 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserType' is required by BeforeTest on method intiateDriverInstance but has not been marked @Optional or defined
+in C:\Users\SK_admin\AppData\Local\Temp\testng-eclipse--1036814938\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserType' is required by BeforeTest on method intiateDriverInstance but has not been marked @Optional or defined
+in C:\Users\SK_admin\AppData\Local\Temp\testng-eclipse--1036814938\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateDriverInstance -->
+        <test-method status="SKIP" signature="validateAppointment()[pri:0, instance:com.mmp.testcases.US_004_ScheduleAppointment@314c508a]" name="validateAppointment" is-config="true" duration-ms="-1572289475395" started-at="2019-10-28T15:04:35 EDT" depends-on-methods="com.mmp.base.TestBaseClass.intiateDriverInstance" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppointment -->
+        <test-method status="SKIP" signature="validateAppointment()[pri:0, instance:com.mmp.testcases.US_004_ScheduleAppointment@314c508a]" name="validateAppointment" duration-ms="0" started-at="2019-10-28T15:04:35 EDT" finished-at="2019-10-28T15:04:35 EDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserType' is required by BeforeTest on method intiateDriverInstance but has not been marked @Optional or defined
+in C:\Users\SK_admin\AppData\Local\Temp\testng-eclipse--1036814938\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserType' is required by BeforeTest on method intiateDriverInstance but has not been marked @Optional or defined
+in C:\Users\SK_admin\AppData\Local\Temp\testng-eclipse--1036814938\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppointment -->
+      </class> <!-- com.mmp.testcases.US_004_ScheduleAppointment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
